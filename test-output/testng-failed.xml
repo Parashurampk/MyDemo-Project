@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.mydemo.testcases.HomePageTest">
+        <methods>
+          <include name="validateOrderHistoryTest"/>
+          <include name="validateMyWishListTest"/>
+          <include name="afterSuite"/>
+          <include name="loadConfig"/>
+          <include name="tearDown"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.mydemo.testcases.HomePageTest -->
+      <class name="com.mydemo.testcases.SearchResultPageTest">
+        <methods>
+          <include name="productAvailabilityTest"/>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+          <include name="afterSuite"/>
+          <include name="loadConfig"/>
+        </methods>
+      </class> <!-- com.mydemo.testcases.SearchResultPageTest -->
+      <class name="com.mydemo.testcases.AccountCreationPageTest">
+        <methods>
+          <include name="validateAcountCreatePageTest"/>
+          <include name="afterSuite"/>
+          <include name="Setup"/>
+          <include name="loadConfig"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mydemo.testcases.AccountCreationPageTest -->
+      <class name="com.mydemo.testcases.AddToCartPageTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="loadConfig"/>
+          <include name="Setup"/>
+          <include name="addToCartTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mydemo.testcases.AddToCartPageTest -->
+      <class name="com.mydemo.testcases.LoginPageTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="afterSuite"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+          <include name="loadConfig"/>
+        </methods>
+      </class> <!-- com.mydemo.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
